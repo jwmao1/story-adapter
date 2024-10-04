@@ -29,8 +29,8 @@ The repository contains the official implementation of "Story-Adapter".
 
 
 ## News 🚀
-* **2024.10.21**: Code released.
-* **2024.10.03**: [Paper](https://arxiv.org/abs/2406.12587) is released on ArXiv.
+* **2024.10.07**: [Paper](https://arxiv.org/abs/2406.12587) is released on ArXiv.
+* **2024.10.04**: Code released.
 
 ## Framework 🤖 
 
