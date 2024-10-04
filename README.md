@@ -25,7 +25,7 @@ The repository contains the official implementation of "Story-Adapter".
 
 <br>
 
-<img src="https://github.com/jwmao1/story-adapter/docs/teaser-github.jpg" width="800"/>
+<img src="./docs/teaser-github.jpg" width="800"/>
 
 
 ## News 🚀
@@ -41,7 +41,7 @@ All results from this iteration will be used as a reference image to guide the d
 
 <br>
 
-<img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\framework.jpg" width="1080"/>
+<img src="./docs/framework.jpg" width="1080"/>
 
 
 ## Quick Start 🔧
@@ -87,30 +87,30 @@ python run.py --base_model_path your_path/RealVisXL_V4.0 --image_encoder_path yo
 
 | GIF1 | GIF2  | GIF3  |
 | --- | --- | --- |
-| <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_005169.gif" alt="GIF 1" width="224"/>  | <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_007016.gif" alt="GIF 2" width="224"/> | <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_007137.gif" alt="GIF 3" width="224"/>  |
+| <img src="./docs/our_005169.gif" alt="GIF 1" width="224"/>  | <img src="./docs/our_007016.gif" alt="GIF 2" width="224"/> | <img src="./docs/our_007137.gif" alt="GIF 3" width="224"/>  |
 
 | GIF4 | GIF5  | GIF6  |
 | --- | --- | --- |
-| <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_013804.gif" alt="GIF 4" width="224"/>  | <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_015770.gif" alt="GIF 5" width="224"/> | <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_000026.gif" alt="GIF 6" width="224"/>  |
+| <img src="./docs/our_013804.gif" alt="GIF 4" width="224"/>  | <img src="./docs/our_015770.gif" alt="GIF 5" width="224"/> | <img src="./docs/our_000026.gif" alt="GIF 6" width="224"/>  |
 
 | GIF7 | GIF8  | GIF9  |
 | --- | --- | --- |
-| <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_012060.gif" alt="GIF 7" width="224"/>  | <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_008614.gif" alt="GIF 8" width="224"/> | <img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\our_008710.gif" alt="GIF 9" width="224"/>  |
+| <img src="./docs/our_012060.gif" alt="GIF 7" width="224"/>  | <img src="./docs/our_008614.gif" alt="GIF 8" width="224"/> | <img src="./docs/our_008710.gif" alt="GIF 9" width="224"/>  |
 
 
 ### Long Story Visualization 
 
 <br>
 
-<img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\comic1.png" width="1080"/>
+<img src="./docs/comic1.png" width="1080"/>
 
 <br>
 <br>
-<img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\comic7.png" width="1080"/>
+<img src="./docs/comic7.png" width="1080"/>
 
 <br>
 <br>
-<img src="C:\Users\86187\Desktop\story-adapter\storyadapter\docs\comic3.png" width="1080"/>
+<img src="./docs/comic3.png" width="1080"/>
 
 ## Acknowledgement 🍻
 
@@ -121,13 +121,7 @@ Deeply appreciate these wonderful open source projects: [stablediffusion](https:
 If you find this repository useful, please consider giving a star ⭐ and citation 🙈:
 
 ```
-@inproceedings{huang2024segment,
-  title={Segment and caption anything},
-  author={Huang, Xiaoke and Wang, Jianfeng and Tang, Yansong and Zhang, Zheng and Hu, Han and Lu, Jiwen and Wang, Lijuan and Liu, Zicheng},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={13405--13417},
-  year={2024}
-}
+None
 ```
 
 
