@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jwmao1/story-adapter/docs/logo.png" height=150>
+  <img src="./docs/logo.png" height=150>
 </p>
 
 
