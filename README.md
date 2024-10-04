@@ -25,7 +25,7 @@ The repository contains the official implementation of "Story-Adapter".
 
 <br>
 
-<img src="https:/github.com/jwmao1/story-adapter/tree/main/docs/teaser-github.jpg" width="800"/>
+<img src="https://github.com/jwmao1/story-adapter/docs/teaser-github.jpg" width="800"/>
 
 
 ## News 🚀
