@@ -8,7 +8,7 @@
 <span>
 <a href="https://arxiv.org/abs/2406.12587"><img src="https://img.shields.io/badge/arXiv-2406.12587-b31b1b.svg" height=22.5></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" height=22.5></a>  
-<a href="https://arxiv.org/abs/2406.12587"><img src="https://img.shields.io/badge/project-StoryAdapter-purple.svg" height=22.5></a>
+<a href="https://jwmao1.github.io/storyadapter/"><img src="https://img.shields.io/badge/project-StoryAdapter-purple.svg" height=22.5></a>
 </span>
 
 Code for the paper [Story-Adapter: A Training-free Iterative Framework for Long Story Visualization](https://arxiv.org/abs/2406.12587)
