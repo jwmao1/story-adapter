@@ -121,7 +121,13 @@ Deeply appreciate these wonderful open source projects: [stablediffusion](https:
 If you find this repository useful, please consider giving a star ⭐ and citation 🙈:
 
 ```
-None
+@misc{mao2024story_adapter,
+  title={{Story-Adapter: A Training-free Iterative Framework for Long Story Visualization}},
+  author={Jiawei, Mao and Xiaoke, Huang and Yunfei, Xie and Yuanqi, Chang and Mude, Hui and Bingjie, Xu and Yuyin, Zhou},
+  journal={arXiv},
+  volume={abs/2410.06244},
+  year={2024},
+}
 ```
 
 
