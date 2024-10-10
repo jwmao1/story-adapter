@@ -6,12 +6,12 @@
 
 # Story-Adapter: A Training-free Iterative Framework for Long Story Visualization
 <span>
-<a href="https://arxiv.org/abs/2406.12587"><img src="https://img.shields.io/badge/arXiv-2410.06244-b31b1b.svg" height=22.5></a>
+<a href="https://arxiv.org/abs/2410.06244"><img src="https://img.shields.io/badge/arXiv-2410.06244-b31b1b.svg" height=22.5></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" height=22.5></a>  
 <a href="https://jwmao1.github.io/storyadapter/"><img src="https://img.shields.io/badge/project-StoryAdapter-purple.svg" height=22.5></a>
 </span>
 
-Code for the paper [Story-Adapter: A Training-free Iterative Framework for Long Story Visualization](https://arxiv.org/abs/2406.12587)
+Code for the paper [Story-Adapter: A Training-free Iterative Framework for Long Story Visualization](https://arxiv.org/abs/2410.06244)
 
 Note: This code base is still not complete. Since stable diffusion cannot provide the corresponding style of initialized reference images for subsequent iteration stably, story visualization style of Story-Adapter may be affected.
 
@@ -29,7 +29,7 @@ The repository contains the official implementation of "Story-Adapter".
 
 
 ## News 🚀
-* **2024.10.07**: [Paper](https://arxiv.org/abs/2406.12587) is released on ArXiv.
+* **2024.10.10**: [Paper](https://arxiv.org/abs/2410.06244) is released on ArXiv.
 * **2024.10.04**: Code released.
 
 ## Framework 🤖 
