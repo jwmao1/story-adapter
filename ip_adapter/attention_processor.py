@@ -353,15 +353,24 @@ class IPAttnProcessor2_0(torch.nn.Module):
 
         query = attn.to_q(hidden_states)
 
+        scale = self.scale
+        txt_scale = 1.
         if encoder_hidden_states is None:
             encoder_hidden_states = hidden_states
         else:
             # get encoder_hidden_states, ip_hidden_states
-            end_pos = encoder_hidden_states.shape[1] - self.num_tokens
-            encoder_hidden_states, ip_hidden_states = (
-                encoder_hidden_states[:, :end_pos, :],
-                encoder_hidden_states[:, end_pos:, :],
-            )
+            end_pos=77
+            if encoder_hidden_states.shape[1] == end_pos:
+                ip_hidden_states = encoder_hidden_states
+                scale = 0
+                txt_scale = txt_scale
+            else:
+                encoder_hidden_states, ip_hidden_states = (
+                    encoder_hidden_states[:, :end_pos, :],
+                    encoder_hidden_states[:, end_pos:, :],
+                )
+                scale = self.scale
+                txt_scale = 1
             if attn.norm_cross:
                 encoder_hidden_states = attn.norm_encoder_hidden_states(encoder_hidden_states)
 
