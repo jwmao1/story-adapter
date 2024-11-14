@@ -363,7 +363,7 @@ class IPAttnProcessor2_0(torch.nn.Module):
             if encoder_hidden_states.shape[1] == end_pos:
                 ip_hidden_states = encoder_hidden_states
                 scale = 0
-                txt_scale = txt_scale
+                txt_scale = 1
             else:
                 encoder_hidden_states, ip_hidden_states = (
                     encoder_hidden_states[:, :end_pos, :],
@@ -413,7 +413,7 @@ class IPAttnProcessor2_0(torch.nn.Module):
         ip_hidden_states = ip_hidden_states.transpose(1, 2).reshape(batch_size, -1, attn.heads * head_dim)
         ip_hidden_states = ip_hidden_states.to(query.dtype)
 
-        hidden_states = hidden_states + self.scale * ip_hidden_states
+        hidden_states = hidden_states + scale * ip_hidden_states
 
         # linear proj
         hidden_states = attn.to_out[0](hidden_states)
