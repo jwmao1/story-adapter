@@ -18,7 +18,7 @@ if is_torch2_available():
         CNAttnProcessor2_0 as CNAttnProcessor,
     )
     from .attention_processor import (
-        IPAttnProcessor2_0 as IPAttnProcessor,
+        IPAttnProcessor as IPAttnProcessor,
     )
 else:
     from .attention_processor import AttnProcessor, CNAttnProcessor, IPAttnProcessor
