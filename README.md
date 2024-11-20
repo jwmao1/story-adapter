@@ -13,7 +13,7 @@
 
 Code for the paper [Story-Adapter: A Training-free Iterative Framework for Long Story Visualization](https://arxiv.org/abs/2410.06244)
 
-Note: This code base is still not complete. Since stable diffusion cannot provide the corresponding style of initialized reference images for subsequent iteration stably, story visualization style of Story-Adapter may be affected.
+Note: This code base is still not complete. 
 
 ### About this repo:
 
